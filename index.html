@@ -6,17 +6,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Tapestry&display=swap" rel="stylesheet">
 
 
-<body style="background-image:url('https://media.discordapp.net/attachments/1083798249879654460/1083808775204524102/ebaaf7be71acd560ec744a7d630fd307.jpg'); background-repeat: no-repeat; background-size: cover !important; margin:0;">
-<img id="pic" align=left src=https://i.postimg.cc/PJgPTwLQ/1475084205-the-time-of-the-knights-preview-rev-1-1.png width=auto height=100% style="margin-left:-200px;transition: 5s;">
+<body style="background-image:url('https://media.discordapp.net/attachments/1083798249879654460/1083808775204524102/ebaaf7be71acd560ec744a7d630fd307.jpg'); background-repeat: no-repeat; background-size: cover !important; margin:0;display: flex;
+    align-items: center;
+    justify-content: center;">
+
+<div style="text-align: center;display: flex;
+    flex-direction: column;
+    align-items: center;"><img id="pic" align=center src=https://media.discordapp.net/attachments/1083798249879654460/1084385201012080660/token_1_10.png width=auto height=auto style="margin-top:-200px;transition: 5s;">
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <center style="background-color:rgba(102, 102, 102,0.5);">
 <font color="#ffd700" style="font-family: 'Grenze Gotisch', cursive;font-size:80px; transition: 5s;"><b>Aiens L. Barbarosa</b></font>
 <br>
@@ -28,7 +27,7 @@
 <br>
 <br>
 </center>
-
+</div>
 
 <div style="position:fixed;top:0;right:0;margin:0;padding:0; z-index:9999;">
 <audio controls autoplay loop src="BEHELIT.mp3" type=audio/mpeg>
@@ -42,7 +41,7 @@ $(document).ready(function(){
 
 $('#pic').hide();
 $('font').hide();
-$('#pic').animate({"margin-left": '+=200'}, 1000);
+$('#pic').animate({"margin-top": '+=200'}, 1000);
 $('#pic').fadeTo(3000, 1.0);
 $('font').fadeTo(3000, 1.0);
 
